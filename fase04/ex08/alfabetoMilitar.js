@@ -1,5 +1,5 @@
 function alfabetoMilitar (letra) {
-    letra = letra.toLowerCase ()
+    letra = letra.toLowerCase()
     if (letra === "a")
     return "alpha"
     else if (letra === "e")
