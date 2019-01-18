@@ -1,9 +1,8 @@
 function passadoOuFuturo (date) {
 var today = new Date()
-if (date < today)
+var datacerta = 1440115200000
+if (date < datacerta)
 return "Passado"
 else 
 return "Futuro"
 }
-
-
