@@ -3,5 +3,3 @@ function umADez () {
         return num;
 }
 
-console.log (umADez ());
-
