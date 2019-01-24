@@ -13,4 +13,3 @@ function entreNumeros (min,max) {
         console.log (i); i++;
     }
 }
-entreNumeros (2,8);
