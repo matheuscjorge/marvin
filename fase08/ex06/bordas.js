@@ -1,25 +1,26 @@
 function bordas (h, v) {
     var i = 0;
     var ii = 0;
-    var text = ""
-    var B = "B"
-    var x = "0"
+    var text = "";
+    var B = "B";
+    var x = "0";
     while (i < v) {
         if (h <= 1) {
             if (i < 1)
-                console.log ("A")
+                text += "A" + "\n";
             else if (i < v - 1)
-                console.log ("B")
+                text += "B" + "\n";
             else
-                console.log ("C")
+                text += "C" + "\n";
         }else{
             if (i < 1) 
-                console.log ("A" + B.repeat(h - 2) + "C")
+                text += ("A" + B.repeat(h - 2) + "C" + "\n");
             else if (i < v - 1)
-                console.log ("B" + x.repeat(h - 2) + "B")
+                text += ("B" + x.repeat(h - 2) + "B" + "\n");
             else
-                console.log ("C" + B.repeat(h - 2) + "A")
+                text +=  ("C" + B.repeat(h - 2) + "A"+ "\n");
         }
         i++;
     }
+    console.log (text);
 }
