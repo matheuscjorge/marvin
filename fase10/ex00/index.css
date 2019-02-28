@@ -1,0 +1,21 @@
+h1 {
+    color: navy;
+    text-transform: lowercase;
+}
+body {
+    font-family: sans-serif;
+}
+.p1 {
+    color: #008e00;
+    text-align: right;
+    text-transform: capitalize;
+    
+}
+.p2 {
+    background-color: #000;
+    color: #fff;
+    font-size: 64px;
+}
+ul {
+    list-style-type: square;
+}
