@@ -1,0 +1,44 @@
+#box {
+    height: 100px;
+    width: 100px;
+    background-color: navy;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: navy;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#box2 {
+    height: 100px;
+    width: 100px;
+    background-color: navy;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#box3 {
+    height: 100px;
+    width: 100px;
+    background-color: navy;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#circle {
+    border-radius: 50%;
+    border: dotted 4px;
+    border-color: #666;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
