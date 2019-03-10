@@ -1,0 +1,38 @@
+#rectangle {
+    background-color: #ff0;
+    height: 200px;
+    width: 400px;
+    border: 5px solid;
+    border-color: #666;
+}
+#circle {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border: dotted 2px;
+}
+#square {
+    height: 130px;
+    width: 130px;
+    border: solid 3px;    
+    border-left-color: #f00;
+    border-right-color: #0f0;
+    border-top-color: #00f;
+    border-bottom-color: #ff0;
+}
+img {
+    border-radius: 50%;
+    border: solid blue 5px;
+}
+p {
+    border-radius: 5px;
+    border: 2px solid orange;
+    padding: 5px;
+}
+#triangle {
+    width: 0px;
+    height: 0px;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 160px solid purple;
+}
